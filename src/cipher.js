@@ -37,7 +37,7 @@ decode(){
 
         let textoEnAscii = texto.charCodeAt(i);
 
-        let textoFormulado = (textoEnAscii - 65 - 1) %26 + 65;
+        let textoFormulado = (textoEnAscii + 65 - 1) %26 + 65;
 
         let letrasDescifradas = String.fromCharCode(textoFormulado);
 
