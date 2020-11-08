@@ -70,21 +70,28 @@ select {
  }
 
 .numberSelector{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 50px;
+    height: 50px;
     background: #AFB9D2;
     border-radius: 20px;
     width: 35%;
     text-align: center;
     letter-spacing: -0.015em;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-
+.input{
+    width: 50px;
+    border: none;
+    margin-left: 20px;
+    height: 20px;
+}
 
 .textContainers{
     display: flex;
@@ -92,13 +99,13 @@ select {
     align-content: flex-start;
 }
 
-.arrowButton{
+.decodeButton{
     margin-left: 50px;
     margin-right: 50px;
     align-self: center;
 }
 
-.container{
+.text{
     margin-top: 40px;
     margin-bottom: 40px;
     width: 400px;

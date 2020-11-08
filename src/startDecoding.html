@@ -28,27 +28,18 @@
   
         <section class="selector">
             <p class="numberSelector">Número Secreto
-                <select name="menu" id="secretNumber">
-                    <option value="number1">1</option>
-                    <option value="number2">2</option>
-                    <option value="number3">3</option>
-                    <option value="number4">4</option>
-                    <option value="number5">5</option>
-                    <option value="number6">6</option>
-                    <option value="number7">7</option>
-                    <option value="number8">8</option>
-                    <option value="number9">9</option>
-                    <option value="number10">10</option>
-                </select>
+                <input type="number" id="numeroSecreto2" min="1" class = "input">
             </p>
         </section>
 
         <aside class="textContainers">
-            <textarea name="container" id="one" class="container one" cols="30" rows="10"></textarea>
-            <img class="arrowButton" src="img/botonflecha.svg">
-            <textarea name="container" id="two" class="container two" cols="30" rows="10"></textarea>
+            <textarea name="container" id="textToDecode" class="text toDecode" cols="30" rows="10"></textarea>
+            <input type="button" id =btnDescifrar value="Descifrar ->" class = decodeButton>
+            <textarea name="container" id="decodedText" class="text Decoded" cols="30" rows="10"></textarea>
         </aside>
   
     </div>
+    <script src="index.js" type="module"></script>
+    <script src="cipher.js" type="module"></script>
 </body>
 </html>
