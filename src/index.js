@@ -12,7 +12,12 @@ seccionCifrado.style.display = "block";
 const botonCifrar = document.getElementById("btnCifrar");
 botonCifrar.addEventListener("click", function(){
 
-document.getElementById("encodedText").innerHTML = cipher.encode();
+    let offset = document.getElementById("numeroSecreto").value;
+    offset = parseInt(offset);
+    let texto = document.getElementById("textToEncode").value;
+    texto = texto.toUpperCase();
+    cipher.encode(texto,offset)
+document.getElementById("encodedText").innerHTML = cipher.encode(texto, offset);
 })
 // ---------------------------------------------------
 
@@ -28,6 +33,10 @@ seccionDescifrado.style.display = "block";
 const botonDescifrar = document.getElementById("btnDescifrar");
 botonDescifrar.addEventListener("click", function(){
 
-
-document.getElementById("decodedText").innerHTML = cipher.decode();
+    let offset = document.getElementById("numeroSecreto2").value;
+    offset = parseInt(offset);
+    let texto = document.getElementById("textToDecode").value;
+    texto = texto.toUpperCase();
+    cipher.encode(texto,offset)
+document.getElementById("decodedText").innerHTML = cipher.decode(texto, offset);
 })

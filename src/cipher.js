@@ -1,11 +1,7 @@
 const cipher = {
 
-encode() {
+encode(texto,offset) {
 
-    let offset = document.getElementById("numeroSecreto").value;
-    offset = parseInt(offset);
-    let texto = document.getElementById("textToEncode").value;
-    texto = texto.toUpperCase();
     let textoCifrado = "";
 
     for(let i= 0; i < texto.length; i++) {
@@ -26,12 +22,8 @@ encode() {
 
 }
 ,
-decode(){
+decode(texto, offset){
 
-    let offset = document.getElementById("numeroSecreto2").value;
-    offset =   parseInt(offset);
-    let texto = document.getElementById("textToDecode").value;
-    texto = texto.toUpperCase();
     let textoDescifrado = "";
 
     for(let i= 0; i < texto.length; i++) {
