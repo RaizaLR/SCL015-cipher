@@ -3,7 +3,7 @@ const cipher = {
 encode() {
 
     let offset = document.getElementById("numeroSecreto").value;
-    offset =   parseInt(offset);
+    offset = parseInt(offset);
     let texto = document.getElementById("textToEncode").value;
     texto = texto.toUpperCase();
     let textoCifrado = "";
@@ -13,6 +13,8 @@ encode() {
         let textoEnAscii = texto.charCodeAt(i);
 
         let textoFormulado = (textoEnAscii - 65 + offset) %26 + 65;
+
+        if (textoEnAscii === 32) textoFormulado = 32;
 
         let letrasCifradas = String.fromCharCode(textoFormulado);
 
@@ -37,6 +39,8 @@ decode(){
         let textoEnAscii = texto.charCodeAt(i);
 
         let textoFormulado = (textoEnAscii + 65 - offset) %26 + 65;
+
+        if (textoEnAscii === 32) textoFormulado = 32;
 
         let letrasDescifradas = String.fromCharCode(textoFormulado);
 

@@ -6,19 +6,18 @@
     <title>Cifrado de claves</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap">
-  <body>
+  </head>
 
+    <body>
 <div class="flex-container">
 
       <header class="navBar">
     
           <a href="index.html"><img class="logo home" src="img/home.svg"></a>
-     
-          <img class="logo menu" src="img/menu.svg">
-        
+  
       </header>
-
-      <article class="title">
+<section id="seccionBienvenida">
+      <article class="welcomeTitle">
         <h1 class="firstTitle">¿Quieres claves más seguras?</h1>
         <h2 class="subtitle">Cifrado de Claves</h2>
       </article>
@@ -31,10 +30,56 @@
         <p class="intro">Una herramienta para que puedas crear claves con mayor nivel de seguridad utilizando el metodo de cifrado Cesar.</p>
       </article>
 
-      <footer class="footer">
-        <a href="startCoding.html" class="button code">Empieza a Cifrar</a>
-        <a href="startDecoding.html" class="button uncode">Empieza a Descifrar</a>
-      </footer>
+      <section class="footer">
+        <a id="btnSeccionCifrado" class="button code">Empieza a Cifrar</a>
+        <a id="btnSeccionDescifrado" class="button uncode">Empieza a Descifrar</a>
+      </section>
+      
+</section>
+<section id="seccionCifrado">
+  <article class="title">
+    <p>Empieza a Cifrar</p>
+  </article>
+
+  <article class="subtitle">
+    <p>Selecciona un número secreto y escribe el texto que deseas encriptar.<br>
+      Este número será tu llave para cifrar y descifrar el texto.</p>
+  </article>
+
+  <section class="selector">
+      <p class="numberSelectorCipher">Número Secreto
+          <input type="number" id="numeroSecreto" min="1" class = "input">
+      </p>
+  </section>
+
+  <aside class="textContainersCipher">
+      <textarea name="texto" id="textToEncode" class="text toEncode" cols="30" rows="10"></textarea>
+      <input type="button"  id="btnCifrar" value="Cifrar ->" class = "arrowButton">
+      <textarea name="textoCifrado" id="encodedText" class="text Encoded" cols="30" rows="10"></textarea>
+  </aside>
+</section>
+<section id="seccionDescifrado">
+  <article class="title">
+    <p>Empieza a Descifrar</p>
+  </article>
+
+  <article class="subtitle">
+    <p>Selecciona tu número secreto y escribe el texto que deseas desencriptar.</p>
+  </article>
+
+  <section class="selector">
+      <p class="numberSelector">Número Secreto
+          <input type="number" id="numeroSecreto2" min="1" class = "input">
+      </p>
+  </section>
+
+  <aside class="textContainers">
+      <textarea name="container" id="textToDecode" class="text toDecode" cols="30" rows="10"></textarea>
+      <input type="button" id="btnDescifrar" value="Descifrar ->" class = "decodeButton">
+      <textarea name="container" id="decodedText" class="text Decoded" cols="30" rows="10"></textarea>
+  </aside>
+
+</section>
 
   </div>
 

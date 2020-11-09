@@ -1,5 +1,3 @@
-// [Español]
-// Importamos el objeto `cipher`, que contiene los métodos `encode` y `decode`
 import cipher from '../src/cipher';
 
 describe('cipher', () => {
@@ -16,7 +14,7 @@ describe('cipher', () => {
 
     it('should return "HIJKLMNOPQRSTUVWXYZABCDEFG" for "ABCDEFGHIJKLMNOPQRSTUVWXYZ" with offset 33'
     // Acá debes completar este test
-    );
+    );expect().toBe("")
 
   });
 
