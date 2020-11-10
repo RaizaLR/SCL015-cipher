@@ -29,7 +29,7 @@ Luego de tener estos dos elementos, lo primero que hice fue dirigirme a figma pa
 
 
 ## 5. Explixacion de uso
-El usuario primero debe escribir el texto que desea cifrar o descifrar, luego debe elegir el número decreto que será su desplazamiento y luego al hacer click en el boton cifrar i descifrar, aparecerá el texto en el área de texto de la derecha, con el texto cifrado o descifrado según sea el caso. 
+El usuario primero debe escribir el texto que desea cifrar o descifrar, luego debe elegir el número decreto que será su desplazamiento y luego al hacer click en el boton cifrar o descifrar, aparecerá el texto en el área de texto de la derecha, con el texto cifrado o descifrado según sea el caso. 
 
 El usuario debe usar este alfabeto simple (sin ñ):
 

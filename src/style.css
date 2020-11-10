@@ -196,6 +196,15 @@ display: none;
         background: rgba(255, 255, 255, 0.8);
         border-radius: 20px;
     }
+
+    .textD{
+        margin-top: 70px;
+        margin-bottom: 70px;
+        width: 400px;
+        height: 180px;
+        background: rgba(255, 255, 255, 0.8);
+        border-radius: 20px;
+    }
     
     textarea{
         padding: 20px;
