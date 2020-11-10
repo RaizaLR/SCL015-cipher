@@ -48,6 +48,18 @@ line-height: 50px;
 letter-spacing: -0.015em;
 color: #959CB3;
 text-align: center;
+padding-bottom: 20px;
+}
+
+.subtitleSections{
+font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+    letter-spacing: -0.015em;
 }
 
 .image{
@@ -120,25 +132,7 @@ display: none;
         text-align: center;
         letter-spacing: -0.015em;
         color: #5C90C0;
-        padding-top: 40px;
-    }
-    
-    .subtitle{
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 25px;
-        line-height: 50px;
-        padding-bottom: 25px;
-        text-align: center;
-        letter-spacing: -0.015em;
-    
-        color: #000000;
-    }
-    
-    .selector{
-        display: flex;
-        justify-content: center;
+        padding-top: 25px;
     }
     
     select {
@@ -195,7 +189,8 @@ display: none;
     }
     
     .text{
-        margin-bottom: 30px;
+        margin-top: 10px;
+        margin-bottom: 70px;
         width: 400px;
         height: 180px;
         background: rgba(255, 255, 255, 0.8);
@@ -206,75 +201,7 @@ display: none;
         padding: 20px;
     }
     
-    * {
-        padding: 0px;
-        margin: 0px;
-    }
-    
-    .flex-container{
-    width: 100%;
-    height: 100%;
-    background-image: url(img/fondoTriangulosClaro.svg);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    }
-    
-    
-    .navBar{
-    background: #76ACDE;
-    height: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    }
-    
-    .logo{
-        height: 40px;
-        width: 40px;
-    }
-    
-    .title{
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 40px;
-        line-height: 72px;
-        text-align: center;
-        letter-spacing: -0.015em;
-        color: #5C90C0;
-        padding-top: 40px;
-    }
-    
-    .subtitle{
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 25px;
-        line-height: 50px;
-        padding-bottom: 25px;
-        text-align: center;
-        letter-spacing: -0.015em;
-    
-        color: #000000;
-    }
-    
-    .selector{
-        display: flex;
-        justify-content: center;
-    }
-    
-    select {
-        background: white;
-        border: none;
-        font-size: 14px;
-        height: 30px;
-        padding: 5px;
-        width: 100px;
-     }
-    
+
     .numberSelector{
         display: flex;
         align-items: center;
@@ -299,104 +226,6 @@ display: none;
         height: 20px;
     }
     
-    .textContainers{
-        display: flex;
-        justify-content: center;
-        align-content: flex-start;
-    }
-    
-    .arrowButton{
-        margin-left: 50px;
-        margin-right: 50px;
-        align-self: center;
-        text-decoration: none;
-        background: #5C90C0;
-        border-radius: 20px;
-        border: none;
-        width: 70px;
-        height: 50px;
-        cursor: pointer;
-        color: #FFFFFF;
-    }
-    
-    .text{
-        margin-top: 40px;
-        margin-bottom: 40px;
-        width: 400px;
-        height: 170px;
-        background: rgba(255, 255, 255, 0.8);
-        border-radius: 20px;
-    }
-    
-    textarea{
-        padding: 20px;
-    }
-    
-/* estilo seccion cifrado     */
-
-
-.title{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 72px;
-    text-align: center;
-    letter-spacing: -0.015em;
-    color: #5C90C0;
-    padding-top: 40px;
-}
-
-.subtitle{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 50px;
-    padding-bottom: 25px;
-    text-align: center;
-    letter-spacing: -0.015em;
-
-    color: #000000;
-}
-
-.selector{
-    display: flex;
-    justify-content: center;
-}
-
-select {
-    background: white;
-    border: none;
-    font-size: 14px;
-    height: 30px;
-    padding: 5px;
-    width: 100px;
- }
-
-.numberSelector{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    height: 50px;
-    background: #AFB9D2;
-    border-radius: 20px;
-    width: 35%;
-    text-align: center;
-    letter-spacing: -0.015em;
-    color: #FFFFFF;
-}
-
-.input{
-    width: 50px;
-    border: none;
-    margin-left: 20px;
-    height: 20px;
-}
 
 .textContainers{
     display: flex;
@@ -404,104 +233,14 @@ select {
     align-content: flex-start;
 }
 
-.arrowButton{
-    margin-left: 50px;
-    margin-right: 50px;
-    align-self: center;
-    text-decoration: none;
-    background: #5C90C0;
-    border-radius: 20px;
-    border: none;
-    width: 70px;
-    height: 50px;
-    cursor: pointer;
-    color: #FFFFFF;
-}
 
-.text{
-    margin-top: 40px;
-    margin-bottom: 40px;
-    width: 400px;
-    height: 180px;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 20px;
-}
-
-textarea{
-    padding: 20px;
-}
-
-/* estilo seccion descifrado */
-
-    .title{
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 40px;
-        line-height: 72px;
-        text-align: center;
-        letter-spacing: -0.015em;
-        color: #5C90C0;
-        padding-top: 40px;
-    }
-    
-    .subtitle{
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 25px;
-        line-height: 50px;
-        padding-bottom: 25px;
-        text-align: center;
-        letter-spacing: -0.015em;
-    
-        color: #000000;
-    }
-    
     .selector{
         display: flex;
         justify-content: center;
+        margin-bottom: 30px;
     }
     
-    select {
-        background: white;
-        border: none;
-        font-size: 14px;
-        height: 30px;
-        padding: 5px;
-        width: 100px;
-     }
-    
-    .numberSelector{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 20px;
-        height: 50px;
-        background: #AFB9D2;
-        border-radius: 20px;
-        width: 35%;
-        text-align: center;
-        letter-spacing: -0.015em;
-        color: #FFFFFF;
-    }
-    
-    .input{
-        width: 50px;
-        border: none;
-        margin-left: 20px;
-        height: 20px;
-    }
-    
-    .textContainers{
-        display: flex;
-        justify-content: center;
-        align-content: flex-start;
-    }
-    
+
     .decodeButton{
         margin-left: 50px;
         margin-right: 50px;
@@ -514,17 +253,4 @@ textarea{
         height: 50px;
         cursor: pointer;
         color: #FFFFFF;
-    }
-    
-    .text{
-        margin-top: 40px;
-        margin-bottom: 40px;
-        width: 400px;
-        height: 230px;
-        background: rgba(255, 255, 255, 0.8);
-        border-radius: 20px;
-    }
-    
-    textarea{
-        padding: 20px;
     }
