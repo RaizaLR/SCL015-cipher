@@ -102,10 +102,10 @@ padding: 20px;}
 a.button.code{
 margin-right: 40px;}
 
-#seccionCifrado{
+#encodeSection{
 display: none;}
 
-#seccionDescifrado{
+#decodeSection{
 display: none;}
     
 .title{

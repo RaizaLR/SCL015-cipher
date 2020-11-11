@@ -12,13 +12,13 @@
       <header class="navBar">
           <a href="index.html"><img class="logo home" src="img/home.svg" alt="logo de home"></a>
       </header>
-<section id="seccionBienvenida">
+<section id="welcomeSection">
       <article class="welcomeTitle">
         <h1 class="firstTitle">¿Quieres claves más seguras?</h1>
         <h2 class="subtitle">Cifrado de Claves</h2>
       </article>
       <aside class="image">
-        <img src="img/cajaFuerte.svg" class="safe" alt="imagen de caja fuerte">
+        <img src="img/cajaFuerte.svg" class="safe" alt="Imagen de caja fuerte">
       </aside>
       <article class="bottomContainer">
         <p class="intro">Una herramienta para que puedas crear claves con mayor nivel de seguridad utilizando el metodo de cifrado Cesar.</p>
@@ -28,7 +28,7 @@
         <a id="btnSeccionDescifrado" class="button uncode">Empieza a Descifrar</a>
       </section>
 </section>
-<section id="seccionCifrado">
+<section id="encodeSection">
   <article class="title">
     <p>Empieza a Cifrar</p>
   </article>
@@ -38,7 +38,7 @@
   </article>
   <section class="selector">
       <p class="numberSelector">Número Secreto
-          <input type="number" id="numeroSecreto" min="1" class = "input"> </p>
+          <input type="number" id="encodeOffset" min="1" class = "input"> </p>
   </section>
   <aside class="textContainers">
       <textarea name="texto" id="textToEncode" class="text toEncode" cols="30" rows="10"></textarea>
@@ -46,7 +46,7 @@
       <textarea name="textoCifrado" id="encodedText" class="text Encoded" cols="30" rows="10"></textarea>
   </aside>
 </section>
-<section id="seccionDescifrado">
+<section id="decodeSection">
   <article class="title">
     <p>Empieza a Descifrar</p>
   </article>
@@ -55,7 +55,7 @@
   </article>
   <section class="selector">
       <p class="numberSelector">Número Secreto
-          <input type="number" id="numeroSecreto2" min="1" class = "input">
+          <input type="number" id="decodeOffset" min="1" class = "input">
       </p>
   </section>
   <aside class="textContainers">

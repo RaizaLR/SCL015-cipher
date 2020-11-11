@@ -23,7 +23,7 @@ En este proyecto creé una aplicación web con el objetivo principal de permitir
 
 Una vez que ya habia decidido la idea de la aplicación web, y tuve que empezar a pensar en el diseño, en lo primero que pensé fue en una caja fuerte, ya que de esa forma podemos ver a nuestras cuentas online, como una caja fuerte que solo nosotros sabemos el codigo secreto, el cual no queremos que otras personas sepan o adivinen, luego pensé en utilizar una paleta de colores azules ya que en la psicología del color aplicado al diseño y el marketing, mencionan que los colores azules brindan una sensación de seguridad al usuario.
 
-![Diseño de página principal](src/img/PaginaPrincipal.PNG "[Diseño de página principal")
+![Diseño de página principal](src/img/PaginaPrincipal.PNG "Diseño de página principal")
 
 ### 4. Figma
 
