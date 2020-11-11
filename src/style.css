@@ -1,7 +1,6 @@
 * {
     padding: 0px;
-    margin: 0px;
-}
+    margin: 0px;}
 
 .flex-container{
 width: 100%;
@@ -9,8 +8,7 @@ height: 100%;
 background-image: url(img/fondoTriangulosClaro.svg);
 display: flex;
 flex-direction: column;
-justify-content: center;
-}
+justify-content: center;}
 
 .navBar{
 background: #76ACDE;
@@ -19,13 +17,11 @@ padding-left: 40px;
 padding-right: 40px;
 display: flex;
 justify-content: space-between;
-align-items: center;
-}
+align-items: center;}
 
 .logo{
     height: 40px;
-    width: 40px;
-}
+    width: 40px;}
 
 .firstTitle{
 font-family: Montserrat;
@@ -36,8 +32,7 @@ line-height: 72px;
 letter-spacing: -0.015em;
 color: #5C90C0;
 text-align: center;
-padding-top: 20px;
-}
+padding-top: 20px;}
 
 .subtitle{
 font-family: Montserrat;
@@ -48,28 +43,24 @@ line-height: 50px;
 letter-spacing: -0.015em;
 color: #959CB3;
 text-align: center;
-padding-bottom: 20px;
-}
+padding-bottom: 20px;}
 
 .subtitleSections{
 font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 50px;
-    padding-bottom: 25px;
-    text-align: center;
-    letter-spacing: -0.015em;
-}
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 50px;
+padding-bottom: 25px;
+text-align: center;
+letter-spacing: -0.015em;}
 
 .image{
-text-align: center;
-}
+text-align: center;}
 
 .safe{
 height: 200px;
-width: 200px;
-}
+width: 200px;}
 
 .intro{
 font-family: 'Montserrat';
@@ -82,16 +73,14 @@ color: #000000;
 text-align: center;
 padding-left: 250px;
 padding-right: 250px;
-padding-top: 20px;
-}
+padding-top: 20px;}
 
 .footer{
 margin-top: 20px;
 margin-bottom: 50px;
 display: flex;
 flex-direction: row;
-justify-content: center;
-}
+justify-content: center;}
 
 .button{
 cursor: pointer;
@@ -108,158 +97,109 @@ box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
 border-radius: 50px;
 text-decoration: none;
 width: 250px;
-padding: 20px;
-}
+padding: 20px;}
 
 a.button.code{
-    margin-right: 40px;
-}
+margin-right: 40px;}
 
 #seccionCifrado{
-display: none;
-}
+display: none;}
 
 #seccionDescifrado{
-    display: none;
-    }
+display: none;}
     
-    .title{
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 40px;
-        line-height: 72px;
-        text-align: center;
-        letter-spacing: -0.015em;
-        color: #5C90C0;
-        padding-top: 25px;
-    }
+.title{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 72px;
+text-align: center;
+letter-spacing: -0.015em;
+color: #5C90C0;
+padding-top: 25px;}
     
-    select {
-        background: white;
-        border: none;
-        font-size: 14px;
-        height: 30px;
-        padding: 5px;
-        width: 100px;
-     }
+select{
+background: white;
+border: none;
+font-size: 14px;
+height: 30px;
+padding: 5px;
+width: 100px;}
     
-    .numberSelectorCipher{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 20px;
-        height: 50px;
-        background: #AFB9D2;
-        border-radius: 20px;
-        width: 35%;
-        text-align: center;
-        letter-spacing: -0.015em;
-        color: #FFFFFF;
-    }
-    
-    .input{
-        width: 50px;
-        border: none;
-        margin-left: 20px;
-        height: 20px;
-    }
-    
-    .textContainersCipher{
-        display: flex;
-        justify-content: center;
-        align-content: flex-start;
-    }
-    
-    .arrowButton{
-        margin-left: 50px;
-        margin-right: 50px;
-        align-self: center;
-        text-decoration: none;
-        background: #5C90C0;
-        border-radius: 20px;
-        border: none;
-        width: 70px;
-        height: 50px;
-        cursor: pointer;
-        color: #FFFFFF;
-    }
-    
-    .text{
-        margin-top: 45px;
-        margin-bottom: 45px;
-        width: 400px;
-        height: 180px;
-        background: rgba(255, 255, 255, 0.8);
-        border-radius: 20px;
-    }
+.input{
+width: 50px;
+border: none;
+margin-left: 20px;
+height: 20px;}
 
-    .textD{
-        margin-top: 70px;
-        margin-bottom: 70px;
-        width: 400px;
-        height: 180px;
-        background: rgba(255, 255, 255, 0.8);
-        border-radius: 20px;
-    }
+.arrowButton{
+margin-left: 50px;
+margin-right: 50px;
+align-self: center;
+text-decoration: none;
+background: #5C90C0;
+border-radius: 20px;
+border: none;
+width: 70px;
+height: 50px;
+cursor: pointer;
+color: #FFFFFF;}
     
-    textarea{
-        padding: 20px;
-    }
-    
+.text{
+margin-top: 45px;
+margin-bottom: 45px;
+width: 400px;
+height: 180px;
+background: rgba(255, 255, 255, 0.8);
+border-radius: 20px;}
 
-    .numberSelector{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 20px;
-        height: 50px;
-        background: #AFB9D2;
-        border-radius: 20px;
-        width: 35%;
-        text-align: center;
-        letter-spacing: -0.015em;
-        color: #FFFFFF;
-    }
+.textD{
+margin-top: 70px;
+margin-bottom: 70px;
+width: 400px;
+height: 180px;
+background: rgba(255, 255, 255, 0.8);
+border-radius: 20px;}
     
-    .input{
-        width: 50px;
-        border: none;
-        margin-left: 20px;
-        height: 20px;
-    }
+textarea{
+padding: 20px;}
     
+.numberSelector{
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+height: 50px;
+background: #AFB9D2;
+border-radius: 20px;
+width: 35%;
+text-align: center;
+letter-spacing: -0.015em;
+color: #FFFFFF;}
 
 .textContainers{
-    display: flex;
-    justify-content: center;
-    align-content: flex-start;
-}
+display: flex;
+justify-content: center;
+align-content: flex-start;}
 
+.selector{
+display: flex;
+justify-content: center;
+margin-bottom: 30px;}
 
-    .selector{
-        display: flex;
-        justify-content: center;
-        margin-bottom: 30px;
-    }
-    
-
-    .decodeButton{
-        margin-left: 50px;
-        margin-right: 50px;
-        align-self: center;
-        text-decoration: none;
-        background: #5C90C0;
-        border-radius: 20px;
-        border: none;
-        width: 80px;
-        height: 50px;
-        cursor: pointer;
-        color: #FFFFFF;
-    }
+.decodeButton{
+margin-left: 50px;
+margin-right: 50px;
+align-self: center;
+text-decoration: none;
+background: #5C90C0;
+border-radius: 20px;
+border: none;
+width: 80px;
+height: 50px;
+cursor: pointer;
+color: #FFFFFF;}
