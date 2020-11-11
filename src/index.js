@@ -30,10 +30,10 @@ seccionDescifrado.style.display = "block";
 const botonDescifrar = document.getElementById("btnDescifrar");
 botonDescifrar.addEventListener("click", function(){
 
-    let offset = document.getElementById("numeroSecreto2").value;
-    offset = parseInt(offset);
-    let texto = document.getElementById("textToDecode").value;
-    texto = texto.toUpperCase();
-    cipher.encode(texto,offset)
+let offset = document.getElementById("numeroSecreto2").value;
+offset = parseInt(offset);
+let texto = document.getElementById("textToDecode").value;
+texto = texto.toUpperCase();
+cipher.encode(texto,offset)
 document.getElementById("decodedText").innerHTML = cipher.decode(texto, offset);
 })
