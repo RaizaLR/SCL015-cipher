@@ -15,7 +15,7 @@ botonCifrar.addEventListener("click", function(){
     offset = parseInt(offset);
     let texto = document.getElementById("textToEncode").value;
     texto = texto.toUpperCase();
-    cipher.encode(texto,offset)
+    cipher.encode(texto,offset);
 document.getElementById("encodedText").innerHTML = cipher.encode(texto, offset);
 })
 // -- Mostrando seccion de descifrado
